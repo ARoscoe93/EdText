@@ -21,6 +21,23 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-family: 'Arial Black', sans-serif; /* Use a bold font */
+  font-size: 36px; /* Adjust font size as needed */
+  color: #4D4D87; /* Stylish purple color */
+  text-transform: uppercase; /* Convert text to uppercase for emphasis */
+  letter-spacing: 2px; /* Add letter spacing for a more spaced-out look */
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-style: italic;
+  justify-content: end;
+}
+
+
 textarea {
   border-radius: 5px;
   margin: 5px;
