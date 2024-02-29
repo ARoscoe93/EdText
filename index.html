@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>EdText</h1>
+    <div>
+      <label for="colorPicker">Choose Text Color:</label>
+      <input type="color" id="colorPicker">
+    </div>
+    <div>
+      <button onclick="toggleFormat('underline')">Underline</button>
+      <button onclick="toggleFormat('italic')">Italic</button>
+      <button onclick="toggleFormat('bold')">Bold</button>
+      <button onclick="toggleFormat('mono')">Monospace</button>
+      <button onclick="removeFormat()">Remove Format</button>
+    </div>
+    <div>
+      <textarea id="words" placeholder="Write your text here"></textarea>
+    </div>
+    <footer>
+      <p>Professional text editor created by Andrew Roscoe &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
